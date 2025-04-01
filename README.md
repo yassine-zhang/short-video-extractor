@@ -1,7 +1,7 @@
-# Video Parser Service[![Status](https://status.itcox.cn/badge/sve-api/dot?animate=ping&t=1743491024
+# Video Parser Service[![Status](https://status.itcox.cn/badge/sve-api/dot?animate=ping&t=1743490343)](https://status.itcox.cn)
 
-[![short-video-extractor ✨](https://status.itcox.cn/badge/sve-api/status?labelColor=&color=&style=for-the-badge&label=short-video-extractor%20%E2%9C%A8&t=1743491024
-[![short-video-extractor ✨ 90D](https://status.itcox.cn/badge/sve-api/uptime?labelColor=333&color=7a44dc&style=for-the-badge&label=short-video-extractor%20%E2%9C%A8&sinceLast=7776000&hideDuration=false&t=1743491024
+[![short-video-extractor ✨](https://status.itcox.cn/badge/sve-api/status?labelColor=&color=&style=for-the-badge&label=short-video-extractor%20%E2%9C%A8&t=1743490343)](https://status.itcox.cn)
+[![short-video-extractor ✨ 90D](https://status.itcox.cn/badge/sve-api/uptime?labelColor=333&color=7a44dc&style=for-the-badge&label=short-video-extractor%20%E2%9C%A8&sinceLast=7776000&hideDuration=false&t=1743490343)](https://status.itcox.cn)
 
 一个强大的短视频解析服务，支持主流短视频平台的无水印视频提取。基于 Bun 运行时开发，提供高性能的 API 服务。
 
