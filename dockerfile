@@ -1,5 +1,5 @@
 # 第一阶段：构建阶段
-FROM oven/bun:1.1.21-alpine AS builder
+FROM oven/bun:canary-alpine AS builder
 
 WORKDIR /app
 
@@ -11,7 +11,7 @@ COPY . .
 RUN rm -rf ./src/entry && bun run build
 
 # 第二阶段：生产镜像
-FROM oven/bun:1.1.21-alpine
+FROM oven/bun:canary-alpine
 
 RUN apk add --no-cache \
     chromium \
@@ -34,7 +34,6 @@ COPY --from=builder /app/package.json /app/bun.lockb ./
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/src/entry ./src/entry
 COPY --from=builder /app/ecosystem.config.json ./
-COPY --from=builder /app/.env.production ./
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
     PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser \
